@@ -1,0 +1,20 @@
+{
+  "login": "wretcher207",
+  "site": "https://www.deadpixeldesign.com/",
+  "header": {
+    "kicker": "// wretcher207",
+    "title": "Dead Pixel Design",
+    "subtitle": "REAPER tools, an MCP server, plugins, sites and video from Houlton, Maine.",
+    "meta": "deadpixeldesign.com"
+  },
+  "excludeLanguages": ["HTML", "CSS"],
+  "stack": ["Python", "Lua", "TypeScript", "C++ / JUCE", "Swift", "Rust", "REAPER", "MCP", "Astro"],
+  "projects": [
+    { "repo": "reaper-daemon", "description": "Open source MCP server, an AI agent runs REAPER itself. MIT." },
+    { "repo": "dead-pixel-design", "description": "ReaPack repo for every Dead Pixel Design REAPER script.", "language": "ReaPack" },
+    { "repo": "post-mortem", "description": "AI reads your track's FX and stems, gives one honest diagnosis." },
+    { "repo": "cab-rot-2", "description": "Cab Rot, dynamic harshness control for high-gain amp sims (JUCE)." },
+    { "repo": "Dehumanizer-Pro", "description": "Draw a dynamics curve over a section instead of randomizing." },
+    { "repo": "claude-visualizer", "description": "Ambient visualizer for Claude Code tool events, zero deps." }
+  ]
+}

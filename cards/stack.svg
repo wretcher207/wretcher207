@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="196" viewBox="0 0 436 196" role="img" aria-label="Core stack: Python, Lua, TypeScript, C++ / JUCE, Swift, Rust, REAPER, MCP, Astro">
+<title>Core stack: Python, Lua, TypeScript, C++ / JUCE, Swift, Rust, REAPER, MCP, Astro</title>
+<style>
+  .sans { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; }
+  .kicker { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 11px; letter-spacing: 0.14em; fill: #8A8A85; }
+  /* "backwards" hides elements only while the animation runs, so a renderer that
+     skips animation still shows everything. */
+  .rise { animation: rise 520ms cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .rise { animation: none; } }
+</style>
+<rect x="0.5" y="0.5" width="435" height="195" fill="#0B0B0B" stroke="#2E2E2C"/>
+<rect x="28" y="26" width="10" height="1.5" fill="#C9955A"/><text x="46" y="31" class="kicker">CORE STACK</text>
+<g class="rise" style="animation-delay:0ms"><rect x="28.5" y="60.5" width="71" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="38" y="71" width="6" height="6" fill="#C9955A"/><text x="50" y="78" class="mono" font-size="11.5" fill="#B4B4B0">Python</text></g>
+<g class="rise" style="animation-delay:50ms"><rect x="108.5" y="60.5" width="49" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="118" y="71" width="6" height="6" fill="#C9955A"/><text x="130" y="78" class="mono" font-size="11.5" fill="#B4B4B0">Lua</text></g>
+<g class="rise" style="animation-delay:100ms"><rect x="166.5" y="60.5" width="101" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="176" y="71" width="6" height="6" fill="#C9955A"/><text x="188" y="78" class="mono" font-size="11.5" fill="#B4B4B0">TypeScript</text></g>
+<g class="rise" style="animation-delay:150ms"><rect x="276.5" y="60.5" width="101" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="286" y="71" width="6" height="6" fill="#4A4A47"/><text x="298" y="78" class="mono" font-size="11.5" fill="#B4B4B0">C++ / JUCE</text></g>
+<g class="rise" style="animation-delay:200ms"><rect x="28.5" y="98.5" width="64" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="38" y="109" width="6" height="6" fill="#4A4A47"/><text x="50" y="116" class="mono" font-size="11.5" fill="#B4B4B0">Swift</text></g>
+<g class="rise" style="animation-delay:250ms"><rect x="101.5" y="98.5" width="57" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="111" y="109" width="6" height="6" fill="#4A4A47"/><text x="123" y="116" class="mono" font-size="11.5" fill="#B4B4B0">Rust</text></g>
+<g class="rise" style="animation-delay:300ms"><rect x="167.5" y="98.5" width="71" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="177" y="109" width="6" height="6" fill="#4A4A47"/><text x="189" y="116" class="mono" font-size="11.5" fill="#B4B4B0">REAPER</text></g>
+<g class="rise" style="animation-delay:350ms"><rect x="247.5" y="98.5" width="49" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="257" y="109" width="6" height="6" fill="#4A4A47"/><text x="269" y="116" class="mono" font-size="11.5" fill="#B4B4B0">MCP</text></g>
+<g class="rise" style="animation-delay:400ms"><rect x="305.5" y="98.5" width="64" height="27" fill="#060606" stroke="#2E2E2C"/><rect x="315" y="109" width="6" height="6" fill="#4A4A47"/><text x="327" y="116" class="mono" font-size="11.5" fill="#B4B4B0">Astro</text></g>
+</svg>

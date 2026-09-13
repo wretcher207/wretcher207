@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="132" viewBox="0 0 436 132" role="img" aria-label="cab-rot-2: Cab Rot, dynamic harshness control for high-gain amp sims (JUCE).">
+<title>cab-rot-2: Cab Rot, dynamic harshness control for high-gain amp sims (JUCE).</title>
+<style>
+  .sans { font-family: Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; }
+  .kicker { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace; font-size: 11px; letter-spacing: 0.14em; fill: #8A8A85; }
+  /* "backwards" hides elements only while the animation runs, so a renderer that
+     skips animation still shows everything. */
+  .rise { animation: rise 520ms cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .rise { animation: none; } }
+</style>
+<rect x="0.5" y="0.5" width="435" height="131" fill="#0B0B0B" stroke="#2E2E2C"/>
+
+<rect x="0" y="0" width="3" height="132" fill="#C9955A" opacity="0.9"/>
+<g transform="translate(24 22) scale(1)" stroke="#C9955A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2.5h8.5V14H3.8A1.3 1.3 0 0 1 2.5 12.7V3a.5.5 0 0 1 .5-.5Z M2.5 12.2c0-.7.6-1.2 1.3-1.2h7.7" fill="none"/></g>
+<text x="48" y="35" class="mono" font-size="14" font-weight="600" fill="#F2F2EF">cab-rot-2</text>
+<rect x="373.5" y="20.5" width="38" height="19" fill="none" stroke="#2E2E2C"/><text x="392.5" y="34" text-anchor="middle" class="mono" font-size="10.5" fill="#8A8A85">C++</text>
+<text x="24" y="70" class="sans" font-size="13" fill="#B4B4B0">Cab Rot, dynamic harshness control for high-gain amp</text><text x="24" y="89" class="sans" font-size="13" fill="#B4B4B0">sims (JUCE).</text>
+<g transform="translate(24 102) scale(0.85)" stroke="#8A8A85" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.8l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.6l-3.8 2 .7-4.3-3.1-3 4.3-.6Z" fill="none"/></g>
+<text x="42" y="113" class="mono" font-size="11" fill="#8A8A85">0</text>
+<g transform="translate(76 102) scale(0.85)" stroke="#8A8A85" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="4.5" cy="3.5" r="1.5" fill="none"/><circle cx="11.5" cy="3.5" r="1.5" fill="none"/><circle cx="8" cy="12.5" r="1.5" fill="none"/><path d="M4.5 5v1.5c0 1 .8 1.8 1.8 1.8h3.4c1 0 1.8-.8 1.8-1.8V5M8 8.3V11" fill="none"/></g>
+<text x="94" y="113" class="mono" font-size="11" fill="#8A8A85">0</text>
+
+</svg>
